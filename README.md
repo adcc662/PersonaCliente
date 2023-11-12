@@ -1,4 +1,4 @@
-# Microservicio Persona y cliente
+# Microservicio Persona y clientes
 
 ### 🛠️ Tecnologías utilizadas:
 
@@ -32,15 +32,19 @@ A partir de este punto despues de correr el microservicio solo se debe usar `doc
   "identificacion": "11050789",
   "direccion": "123 Calle Principal",
   "telefono": "0987654321"
+}
+  
+  /clientes
 {
-  "numeroCuenta": "1234567890",
-  "tipoCuenta": "Ahorros",
-  "saldoInicial": 1000.00,
-  "estado": true,
-  "cliente": {
-    // Asumiendo que el cliente ya existe
-    "id": 1
-  }
+  "nombre": "Ana Ramirez",
+  "genero": "Femenino",
+  "edad": 28,
+  "identificacion": "11050678",
+  "direccion": "456 Calle Secundaria",
+  "telefono": "0987654322",
+  "contrasena": "8989/*/+",
+  "estado": true
+}
 
 ```
 
