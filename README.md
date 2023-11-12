@@ -24,7 +24,7 @@ A partir de este punto despues de correr el microservicio solo se debe usar `doc
 **Datos para la API**
 
 ```sh
-   /personas
+   localhost:8080/personas
 {
   "nombre": "Juan Perez",
   "genero": "Masculino",
@@ -34,7 +34,7 @@ A partir de este punto despues de correr el microservicio solo se debe usar `doc
   "telefono": "0987654321"
 }
   
-  /clientes
+  localhost:8080/clientes
 {
   "nombre": "Ana Ramirez",
   "genero": "Femenino",
